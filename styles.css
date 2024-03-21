@@ -1,5 +1,16 @@
+body {
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.link-list a, .link-list a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
 h1 {
-    background-color: burlywood;
+    background-color: #c08c4f;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -9,4 +20,7 @@ h2 {
 
 .link-list {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    background-color: #35637a;
+    margin: 5px 0;
 }
